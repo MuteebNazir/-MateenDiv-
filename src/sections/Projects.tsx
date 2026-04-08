@@ -1,5 +1,6 @@
 import TrekDeKashmir from "@/assets/images/Trek-De-Kashmir.png";
 import Forkify from "@/assets/images/Forkify.png";
+import NetflixGPT from "@/assets/images/Netflix-GPT.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import NeoVerse from "@/assets/images/Neo-Verse.png";
 import Image from "next/image";
@@ -49,12 +50,14 @@ const portfolioProjects = [
     year: "2026",
     title: "AI Movie Platform",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built AI movie platform with GPT recommendations & Firebase Auth" },
+      { title: "Integrated 5+ TMDB APIs for real-time content" },
+      { title: "Reduced API calls by 35% using Redux Toolkit & hooks" },
+      { title: "Created responsive UI with trailers & protected routes" },
+      { title: "Deployed on Firebase" },
     ],
-    link: "https://neo-verse-studios.vercel.app/",
-    image: NeoVerse,
+    link: "https://netflixgpt-13c94.web.app/",
+    image: NetflixGPT,
   },
 ];
 
