@@ -44,6 +44,18 @@ const portfolioProjects = [
     link: "https://neo-verse-studios.vercel.app/",
     image: NeoVerse,
   },
+  {
+    company: "Netflix GPT",
+    year: "2026",
+    title: "AI Movie Platform",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://neo-verse-studios.vercel.app/",
+    image: NeoVerse,
+  },
 ];
 
 export const ProjectsSection = () => {
